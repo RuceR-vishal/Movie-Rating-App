@@ -1,0 +1,307 @@
+{
+  "bannerData": [
+    {
+      "id": 1,
+      "name": "OBLIVION",
+      "rating": "8.1",
+      "category": [2, 9],
+      "img": "1",
+      "trailer": "https://www.youtube.com/embed/tx6_JMDFfWI"
+    },
+    {
+      "id": 2,
+      "name": "INTO THE WILD",
+      "rating": "8.1",
+      "category": [3, 6],
+      "img": "2",
+      "trailer": "https://www.youtube.com/embed/XZG1FzyB8DI"
+    },
+    {
+      "id": 3,
+      "name": "DIE HARD",
+      "rating": "7.1",
+      "category": [1, 2],
+      "img": "3",
+      "trailer": "https://www.youtube.com/embed/_BMmRdAW2yw"
+    },
+    {
+      "id": 4,
+      "name": "THE WALK",
+      "rating": "7.3",
+      "category": [3, 6],
+      "img": "4",
+      "trailer": "https://www.youtube.com/embed/4W6byFcD5uE"
+    },
+    {
+      "id": 5,
+      "name": "BLADE RUNNER",
+      "rating": "8",
+      "category": [1, 9],
+      "img": "5",
+      "trailer": "https://www.youtube.com/embed/gCcx85zbxz4"
+    },
+    {
+      "id": 6,
+      "name": "MULHOLLAND DRIVE ",
+      "rating": "8.0",
+      "category": [1, 6, 8],
+      "img": "6",
+      "trailer": "https://www.youtube.com/embed/jbZJ487oJlY"
+    },
+    {
+      "id": 7,
+      "name": "SKYFALL",
+      "rating": "7.7",
+      "category": [1, 2, 3],
+      "img": "7",
+      "trailer": "https://www.youtube.com/embed/iGng9NLo37Y"
+    },
+    {
+      "id": 8,
+      "name": "INTERSTELLAR",
+      "rating": "8.6",
+      "category": [3, 6, 9],
+      "img": "8",
+      "trailer": "https://www.youtube.com/embed/zSWdZVtXT7E"
+    },
+    {
+      "id": 9,
+      "name": "THE REVENANT",
+      "rating": "8.0",
+      "category": [2, 3, 6],
+      "img": "9",
+      "trailer": "https://www.youtube.com/embed/LoebZZ8K5N0"
+    },
+    {
+      "id": 10,
+      "name": "HARRY POTTER",
+      "rating": "7.6",
+      "category": [3, 7],
+      "img": "10",
+      "trailer": "https://www.youtube.com/embed/VyHV0BRtdxo"
+    },
+    {
+      "id": 11,
+      "name": "Guardians of the Galaxy",
+      "rating": "8.0",
+      "category": [2, 3, 4],
+      "img": "11",
+      "trailer": "https://www.youtube.com/embed/2cv2ueYnKjg"
+    },
+    {
+      "id": 12,
+      "name": "The Godfather",
+      "rating": "9.2",
+      "category": [5, 6],
+      "img": "12",
+      "trailer": "https://www.youtube.com/embed/sY1S34973zA"
+    }
+  ],
+
+  "movieList": [
+    {
+      "id": 1,
+      "name": "OBLIVION",
+      "rating": "8.1",
+      "category": [2, 9],
+      "img": "1"
+    },
+    {
+      "id": 2,
+      "name": "INTO THE WILD",
+      "rating": "8.1",
+      "category": [3, 6],
+      "img": "2"
+    },
+    {
+      "id": 3,
+      "name": "DIE HARD",
+      "rating": "7.1",
+      "category": [1, 2],
+      "img": "3"
+    },
+    {
+      "id": 4,
+      "name": "THE WALK",
+      "rating": "7.3",
+      "category": [3, 6],
+      "img": "4"
+    },
+    {
+      "id": 5,
+      "name": "BLADE RUNNER",
+      "rating": "8",
+      "category": [1, 9],
+      "img": "5"
+    },
+    {
+      "id": 6,
+      "name": "MULHOLLAND DRIVE ",
+      "rating": "8.0",
+      "category": [1, 6, 8],
+      "img": "6"
+    },
+    {
+      "id": 7,
+      "name": "SKYFALL",
+      "rating": "7.7",
+      "category": [1, 2, 3],
+      "img": "7"
+    },
+    {
+      "id": 8,
+      "name": "INTERSTELLAR",
+      "rating": "8.6",
+      "category": [3, 6, 9],
+      "img": "8"
+    },
+    {
+      "id": 9,
+      "name": "THE REVENANT",
+      "rating": "8.0",
+      "category": [2, 3, 6],
+      "img": "9"
+    },
+    {
+      "id": 10,
+      "name": "HARRY POTTER",
+      "rating": "7.6",
+      "category": [3, 7],
+      "img": "10"
+    },
+    {
+      "id": 11,
+      "name": "Guardians of the Galaxy",
+      "rating": "8.0",
+      "category": [2, 3, 4],
+      "img": "11"
+    },
+    {
+      "id": 12,
+      "name": "The Godfather",
+      "rating": "9.2",
+      "category": [5, 6],
+      "img": "12"
+    }
+  ],
+
+  "trailers": [
+    { "src": "https://www.youtube.com/embed/tx6_JMDFfWI" },
+    { "src": "https://www.youtube.com/embed/XZG1FzyB8DI" },
+    { "src": "https://www.youtube.com/embed/rBicCZG4vg0" },
+    { "src": "https://www.youtube.com/embed/gCcx85zbxz4" }
+  ],
+  "inTheaters":  [
+    {
+      "id": 1,
+      "name": "OBLIVION",
+      "rating": "8.1",
+      "img": "1"
+    },
+    {
+      "id": 2,
+      "name": "INTO THE WILD",
+      "rating": "8.1",
+      "img": "2"
+    },
+    {
+      "id": 3,
+      "name": "DIE HARD",
+      "rating": "7.1",
+      "img": "3"
+    },
+    {
+      "id": 4,
+      "name": "THE WALK",
+      "rating": "7.3",
+      "img": "4"
+    },
+    {
+      "id": 5,
+      "name": "BLADE RUNNER",
+      "rating": "8",
+      "img": "5"
+    },
+    {
+      "id": 6,
+      "name": "MULHOLLAND DRIVE ",
+      "rating": "8.0",
+      "img": "6"
+    },
+    {
+      "id": 7,
+      "name": "SKYFALL",
+      "rating": "7.7",
+      "img": "7"
+    },
+    {
+      "id": 8,
+      "name": "INTERSTELLAR",
+      "rating": "8.6",
+      "img": "8"
+    },
+    {
+      "id": 9,
+      "name": "THE REVENANT",
+      "rating": "8.0",
+      "img": "9"
+    },
+    {
+      "id": 10,
+      "name": "HARRY POTTER",
+      "rating": "7.6",
+      "img": "10"
+    },
+    {
+      "id": 11,
+      "name": "Guardians of the Galaxy",
+      "rating": "8.0",
+      "img": "11"
+    },
+    {
+      "id": 12,
+      "name": "The Godfather",
+      "rating": "9.2",
+      "img": "12"
+    }
+  ],
+
+  "upcoming":  [
+    {
+      "id": 1,
+      "name": "LAXMI BOMB",
+      "img": "20"
+    },
+    {
+      "id": 2,
+      "name": "BLACK WIDOW",
+      "img": "21"
+    },
+    {
+      "id": 3,
+      "name": "FREE GUY",
+      "img": "22"
+    },
+    {
+      "id": 4,
+      "name": "83",
+      "img": "23"
+    },
+    {
+      "id": 5,
+      "name": "DEATH ON THE NILE",
+      "img": "24"
+    },
+    {
+      "id": 6,
+      "name": "COOLIE NO. 1",
+      "img": "26"
+    },
+    {
+      "id": 7,
+      "name": "DURGAVATI",
+      "img": "25"
+    }
+
+  ]
+}

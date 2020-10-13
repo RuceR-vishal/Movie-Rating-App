@@ -1,0 +1,117 @@
+.page-single {
+  background-color: #020d18;
+  padding: 75px 0;
+}
+
+.sr-single-hero {
+  background: url(../../Assets/slider-bg.jpg) no-repeat;
+  height: 598px;
+}
+
+.hero {
+  background-position: center;
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 445px;
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}}
+@media (min-width: 992px){
+.container {
+    width: 970px;
+}}
+@media (min-width: 768px){
+.container {
+    width: 750px;
+}}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.movie-single {
+    margin-top: -415px;
+}
+.page-single {
+    background-color: #020d18;
+    padding: 75px 0;
+}
+@media (min-width: 992px){
+.col-md-4 {
+    width: 33.33333333%;
+}}
+@media (min-width: 992px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}}
+@media (min-width: 768px){
+.col-sm-12 {
+    width: 100%;
+}}
+@media (min-width: 768px){
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}}
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.movie-single .sticky-sb {
+    position: relative;
+    top: 0px;
+}
+.movie-single .movie-img, .movie-single .mv-ceb {
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+.movie-single .movie-img img, .movie-single .mv-ceb img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+img, video {
+    max-width: 100%;
+    vertical-align: top;
+}
+img {
+    border: 0;
+}
+.movie-single .movie-img .movie-btn, .movie-single .mv-ceb .movie-btn {
+    text-align: center;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    background-color: #07101a;
+    border: 3px solid #0c1c2c;
+}
+.movie-single .movie-img .movie-btn .btn-transform.red, .movie-single .mv-ceb .movie-btn .btn-transform.red {
+    margin-bottom: 15px;
+}
+.btn-transform {
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}

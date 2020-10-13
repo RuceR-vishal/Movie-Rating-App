@@ -1,0 +1,190 @@
+.trailers {
+  background-color: #06121e;
+  padding: 70px 0;
+}
+.trailers .trailer-img {
+  width: 100px;
+  max-height: 57px;
+  overflow: hidden;
+}
+.trailers .trailer-img img {
+  width: 100%;
+}
+.trailers .trailer-infor {
+  padding-top: 3px;
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  .trailers .trailer-infor {
+    overflow: hidden;
+  }
+}
+.trailers .trailer-infor .desc {
+  font-family: "Dosis", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: none;
+  margin-bottom: 0;
+}
+.trailers .trailer-infor p {
+  font-family: "Dosis", sans-serif;
+  font-size: 12px;
+  color: #abb7c4;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.trailers .videos {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 12%;
+  margin-right: 12%;
+  flex-direction: row;
+}
+.trailers .videos .video-ft {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .trailers .videos .video-ft {
+    width: 100%;
+  }
+}
+.trailers .videos .video-ft iframe {
+  width: 100%;
+  height: 600px;
+}
+.trailers .videos .thumb-ft {
+  width: 35%;
+  height: 435px;
+  padding: 30px 0;
+  background-color: #0b1a2a;
+  position: relative;
+}
+@media (max-width: 991px) {
+  .trailers .videos .thumb-ft {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .trailers .videos .thumb-ft .trailer-infor h4 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+.trailers .videos .thumb-ft .slick-arrow {
+  position: absolute;
+}
+.trailers .videos .thumb-ft .slick-prev {
+  top: 10px;
+  left: 45%;
+}
+.trailers .videos .thumb-ft .slick-next {
+  top: 95%;
+  right: 50%;
+}
+.trailers .videos .thumb-ft .slick-list {
+  height: 100% !important;
+}
+.trailers .videos .thumb-ft .slick-prev::before {
+  content: "\f126";
+  font-family: "Ionicons";
+  font-size: 24px;
+}
+.trailers .videos .thumb-ft .slick-next::before {
+  content: "\f123";
+  font-family: "Ionicons";
+  font-size: 24px;
+}
+.trailers .videos .thumb-ft .slick-next::before:hover {
+  color: #dcf836;
+}
+.trailers .videos .thumb-ft .slick-track .slick-slide {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+.trailers .videos .thumb-ft .slick-track .slick-slide .trailer-infor {
+  margin-left: 15px;
+}
+.trailers .videos .thumb-ft .slick-track .slick-current {
+  background-color: #1c3d5d;
+}
+@media (max-width: 991px) {
+  .trailers .videos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+.trailers .video-style-2 .slider-for .slick-slide iframe {
+  width: 100%;
+  height: 435px;
+}
+.trailers .video-style-2 .slider-nav {
+  background-color: #0b1a2a;
+  padding: 0 60px;
+  height: 165px;
+  margin-top: -5px;
+}
+.trailers .video-style-2 .slider-nav .slick-dots {
+  display: none !important;
+}
+.trailers .video-style-2 .slider-nav .slick-slide {
+  padding: 15px;
+  height: 165px;
+  overflow: hidden;
+}
+.trailers .video-style-2 .slider-nav .slick-slide .trailer-infor {
+  margin-top: 10px;
+}
+.trailers .video-style-2 .slider-nav .slick-slide .trailer-infor h4 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.trailers .video-style-2 .slider-nav .slick-slide img {
+  width: 100%;
+}
+.trailers .video-style-2 .slider-nav .slick-current {
+  background-color: #1c3d5d;
+}
+.trailers .video-style-2 .slider-nav .slick-prev {
+  left: 15px;
+}
+.trailers .video-style-2 .slider-nav .slick-next {
+  right: 15px;
+}
+.trailers .video-style-2 .slider-nav .slick-prev::before {
+  content: "\f124";
+  font-family: "Ionicons";
+  font-size: 24px;
+}
+.trailers .video-style-2 .slider-nav .slick-next::before {
+  content: "\f125";
+  font-family: "Ionicons";
+  font-size: 24px;
+}
+.trailers .video-style-2 .slider-nav .slick-next::before:hover {
+  color: #dcf836;
+}
+@media (max-width: 991px) {
+  .ipad-width {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  .ipad-width2 {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+  .ipad-width2 .topbar-filter p {
+    padding-right: 70px;
+  }
+  .sidebar {
+    margin-left: 0;
+  }
+}
+.iframesub {
+  width: 100%;
+  height: 250px !important;
+}

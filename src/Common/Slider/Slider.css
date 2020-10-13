@@ -1,0 +1,44 @@
+.cate span {
+    padding: 10px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    margin:6px;
+  }
+  .cate span a {
+    font-family: 'Dosis', sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .cate .blue {
+    background-color: #1692bb;
+  }
+  .cate .yell {
+    background-color: #f5b50a;
+  }
+  .cate .green {
+    background-color: #a6bb16;
+  }
+  .cate .orange {
+    background-color: #ec5a1a;
+  }
+  .cate .grey {
+    background-color: #9ba6aa;
+  }
+  .cate .dblue {
+    background-color: #2f01fd;
+  }
+  .cate .red {
+    background-color: #bb1616;
+  }
+  .cate .dgreen {
+    background-color: #006805;
+  }
+  .cate .dyell {
+    background-color: #97a104;
+  }
+  .slider-single-item{
+    overflow: hidden;
+  }
